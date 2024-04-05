@@ -91,7 +91,7 @@ add_custom_target(
     COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:PCA9685> ${CMAKE_BINARY_DIR}/python_package/PCA9685
     COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:PCA9685_python> ${CMAKE_BINARY_DIR}/python_package/PCA9685
 )
-add_dependencies(python_copy_targets PCA9685 PiPCA9685_python)
+
 
 add_custom_target(
     install_python
