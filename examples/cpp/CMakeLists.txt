@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 find_package(PCA9685 REQUIRED)
 
 add_executable(example-cpp main.cpp)
-target_link_libraries(example-cpp ${PiPCA9685_LIBRARY})
+target_link_libraries(example-cpp ${PCA9686_LIBRARY})
